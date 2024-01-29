@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+header {
+  background-color: gray;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.content {
+  margin-top: 80px;
+  margin: 0 auto;
+}
+
+#header-img {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#nav-bar {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+
+#nav-bar a {
+  color: white;
+  padding: 10px;
+}
+
+#nav-bar a:hover {
+  color: red;
+}
+
+.form-bar {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-padd {
+  width: auto;
+  height: 30px;
+  margin-top: 20px;
+}
+
+#email {
+  padding-left: 10px;
+}
+
+#submit {
+  padding: 0 20px;
+  background-color: orange;
+  border: 3px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#features {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.paragraph {
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#howItWorks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  width: 500px;
+  height: 500px;
+  margin-top: 80px;
+}
+
+#cubes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cubes div {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  margin: 50px 50px;
+}
+
+#cubes img {
+  width: 80%;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#first:hover {
+  background-image: url("https://www.toysrus.com.hk/dw/image/v2/BDGJ_PRD/on/demandware.static/-/Sites-master-catalog-toysrus/default/dw7fe867d3/d/2/0/b/d20bb23240d8d8434bc25085e41eb80bc68de4a7_795671_03.jpg?sw=500&sh=500&q=75");
+}
+
+#fisrtimg:hover {
+  display: none;
+}
+
+#second:hover {
+  background-image: url("https://www.rubiks.com/media/catalog/product/cache/a66e845849e84408fb7d434158662582/r/u/rubiks-retro-3x3-cube-twisted-2.jpg");
+}
+
+#secondimg:hover {
+  display: none;
+}
+
+#third:hover {
+  background-image: url("https://www.rubiks.com/media/catalog/product/cache/a66e845849e84408fb7d434158662582/r/u/rubiks-speed-cube-3x3-twisted-1.jpg");
+}
+
+#thirdimg:hover {
+  display: none;
+}
+
+.description {
+  text-align: center;
+}
+
+footer {
+  background-color: gray;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+}
+
+#footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foot {
+  margin-right: 30px;
+}
